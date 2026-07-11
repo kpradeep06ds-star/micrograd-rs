@@ -1,0 +1,11 @@
+# Ignore all text files everywhere
+*.txt
+
+# Ignore Rust compilation artifacts everywhere
+**/target/
+**/Cargo.lock
+
+# Ignore specific IDE/system noise
+.vscode/
+.DS_Store
+*.swp
